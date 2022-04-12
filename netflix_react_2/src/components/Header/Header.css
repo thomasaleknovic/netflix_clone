@@ -1,0 +1,43 @@
+
+
+header {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: transparent;
+    height: 70px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    padding-left: 25px;
+    transition: all ease 0.5s;
+}
+
+.header--black {
+    background-color: rgb(20, 20, 20);
+    transition: all ease 0.5s;
+}
+
+.header--menu {
+    margin-left: 40px;
+}
+.header--menu a {
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 15px;
+    font-size: 15px;
+    transition: all ease 0.2s;
+}
+.header--menu a:hover {
+    color: #999
+}
+
+.header--profile {
+    position: absolute;
+    right: 20px;    
+}
+.header--profile img {
+    border-radius: 4px;   
+}

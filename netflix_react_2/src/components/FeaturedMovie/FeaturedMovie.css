@@ -1,0 +1,98 @@
+.featured {
+    height: 100vh;
+}
+
+.featured--vertical {
+    height: inherit;
+    width: inherit;
+    background: linear-gradient(to top, #111 10%, transparent 90%);
+}
+
+.featured--horizontal {
+    height: inherit;
+    width: inherit;
+    background: linear-gradient(to right, #111 30%, transparent 70%);
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    padding-left: 50px;
+    padding-bottom: 100px;
+}
+
+.featured--name {
+    font-size: 50px;
+    font-weight: 700;
+
+}
+
+.featured--info {
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.featured--rating,
+.featured--year,
+.featured--seasons {
+    display: inline-block;
+    margin-right: 15px;
+
+}
+
+.featured--rating {
+    color: #46d369;
+}
+
+.featured--overview {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #999;
+    max-width: 40%;
+}
+
+.featured--buttons{
+    margin-top: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.buttons--play,
+.buttons--list{
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 4px;
+    margin-right: 8px;
+    font-size: 18px;
+}
+.MuiButton-root {
+    color: white;
+    box-shadow: none;
+}
+.buttons--play {
+    background-color: white;
+    color: #111;
+}
+
+.buttons--list {
+    background-color: rgba(109,109,110,0.7);
+    color: white
+}
+
+.buttons--play:hover {
+    background-color:rgba(255,255,255,0.75);
+}
+
+.buttons--list:hover {
+    background-color: rgba(109,109,110,0.4);
+}
+
+.buttons--play:focus,
+.buttons--list:focus {
+    border: 2px solid white;
+    box-shadow: none;
+}
+
+.featured--genres {
+    color: #999;
+    font-size: 16px;
+}
