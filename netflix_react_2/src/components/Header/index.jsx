@@ -8,7 +8,7 @@ export default ({black}) => {
         <header className={ black ? "header--black" : '' }>
                 <div className="header--logo">
                     <a href="#">
-                        <img src="/images/netflix-logo-5.png" alt="logo" width={100}></img>
+                        <img src="https://logodownload.org/wp-content/uploads/2014/10/netflix-logo-5.png" alt="logo" width={100}></img>
                     </a>
                 </div>
                 <div className="header--menu">
